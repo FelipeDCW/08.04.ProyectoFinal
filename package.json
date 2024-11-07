@@ -1,0 +1,22 @@
+{
+  "name": "06proyectofinal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "1. Connección\r 2. Modelos - CLIENTE Y USUARIO\r 3. Relaciones - Asociaciones\r 4. Service Cliente - USUARIO Completo\r 5. Controladores Cliente completo\r 6. Rutas Cliente completo\r 7. Service usuario create\r 8. Controlador usuario create\r 9. Ruta usuario post\r 10. Validaciones mediante express-validator en usuario\r 11. Update usuario ok\r 12. ruta login con entrega de jwt\r 13. delete bloqueado con validación de token y administrador",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  }
+}
